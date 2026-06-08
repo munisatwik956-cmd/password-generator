@@ -1,0 +1,80 @@
+.generate-pwd{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #1C2430;
+    padding-bottom: 50px;
+    padding-top: 10px;
+    h1{
+        color: white;
+        margin-left: 30px;
+    }
+    span{
+        color: #15AF78;
+        margin-bottom: 0px;
+    }
+    h3{
+        color: white;
+        margin-top: 0px;
+        margin-left: 30px;
+    }
+    button{
+        background-color: #15AF78;
+        color: white;
+        height: 50px;
+        width: 170px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size: larger;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    
+    #pwd-div{
+        margin-top: 60px;
+        color: white;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: space-around;
+        #pwd-1,#pwd-2{
+            background-color: red;
+            width: 150px;
+            text-align: center;
+            height: 30px;
+            padding-top: 10px;
+            font-size: large;
+            font-weight: bolder;
+        }
+    }
+
+    .select-div{
+        display: flex;
+        justify-content: space-around;
+        select{
+            background-color: #15AF78;
+            color: white;
+            height: 35px;
+            font-size: larger;
+            font-weight: bolder;
+            width: 150px;
+            text-align: center;
+            margin-top: 40px;
+    
+        }
+    }
+
+
+    input{
+    border: 3px solid red;
+    background-color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    color: #15AF78;
+    width: 300px;
+    text-align: center;
+    height: 30px;
+    font-size: larger;
+    }
+}
