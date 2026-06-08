@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: brown;">Password Generator</h1>
+    <div class="generate-pwd">
+        <h1>Generate a <br> <span>random password</span></h1>
+        <h3>Never use an insecure password again.</h3>
+        
+        
+        <input type="number" placeholder="Enter the length of Password" id="pwd-len">
+
+        <div class="select-div">
+            <select id="symbols-select">
+                <option value="on">Symbols On</option>
+                <option value="off">Symbols Off</option>
+            </select>
+            <select id="numbers-select">
+                <option value="on">Numbers On</option>
+                <option value="off">Numbers Off</option>
+            </select>
+        </div>
+
+        <button onclick="generatePwd()">Generate Password</button>
+
+
+        <div id="pwd-div">
+            <div><p id="pwd-1"></p></div>
+            <div><p id="pwd-2"></p></div>
+        </div>
+
+        
+    </div>
+    <hr>
+    <script src="script.js"></script>
+</body>
+</html>
